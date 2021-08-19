@@ -7,7 +7,7 @@
 body{
     font-family: 'Caveat', cursive;
     font-family: 'Permanent Marker', cursive;
-    background-image:url("4.jpg");
+    /*background-image:url("4.jpg");*/
     display:flex;
     justify-content: center;
     align-items: center;
@@ -35,14 +35,15 @@ section{
 }
 .leftSide,
 .rightSide{
-	width: 50%;
+	width: 100%;
 	align-self: center;
 
-}
-/*#text h1,h2,ul{*/
-	/*background-color: #808080;*/
-	/*background-color: #000000*/
-	/*border-radius: 80px;*/
+} 
+
+/*#text h1,h2,ul{
+	background-color: #808080;
+	background-color: #000000;
+	border-radius: 80px;
 	color: #000000;
 	font-weight: 600;
 	width: 250%;
@@ -53,7 +54,8 @@ section{
 	margin-left: 100px;
 	text-decoration: none;
 	outline: none;
-/*}*/
+}
+*/
 #text ul li{
 	margin-top: 5px;
 	margin-left: 5px;
@@ -179,4 +181,14 @@ section{
 	border-top: 1px solid black;
 	padding-top: 1%;
 	text-align: center;
+}
+
+.optionBox span.right
+{
+	background-color: #efefef;
+}
+
+.optionBox span.wrong
+{
+	background-color: grey;
 }
